@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Daftarkan Alumni</title>
+  <style>
+      body{
+    left: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: black;
+    padding: 20px 100px;
+}
+.navbar a{
+    color: #ccc;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.text-title{
+    font-size: 20px !important;
+}
+h1{
+    text-align: center;
+    font-weight: 100;
+}
+table{
+    margin: 15px auto;
+}
+input,select{
+    height: 25px;
+}
+input,select,textarea{
+    border-radius: 4px;
+    border: solid #ccc;
+}
+td{
+    padding: 6px 10px;
+}
+label{
+    display: block;
+    text-align: end;
+    font-size: 14px;
+}
+button{
+    padding: 7px 19px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+.btn-blue{
+    background-color: cornflowerblue;
+}
+.btn-red{
+    background-color: crimson;
+}
+  </style>
+  </head>
+  <body>
+      <fieldset>
+      <legend>Daftarkan Alumni</legend>
+      
+      <tabel>
+      <tr>
+          <td>
+              <label for="cari nama alumni">Cari Nama Alumni</label>
+              </td>
+              <td>
+                  <input type="number"name="cari nama alumni"id="cari nama alumni">
+              </td>
+          </tr>
+          
+          <tr>
+              <td>
+                  <label for="program studi">Program Studi</label>
+                  <select name="Program Study" id="program studi">
+                      <option value="sistem informasi">sistem informasi</option>
+                      <option value="teknik informatika">teknik informatika</option>
+                      <option value="bisnis digital">bisnis digital</option>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <label for="tahun masuk">Tahun masuk</label>
+              </td>
+              <td>
+                  <input type="number"name="tahun masuk"id="tahun masuk">
+              </td>
+      </tr>
+      
+      <tr>
+          <td>
+              <label for="tahun lulus">Tahun Lulus</label>
+          </td>
+          <td>
+              <input type="number"name="tahun lulus"id="tahun lulus">
+              </td>
+      </tr>
+      
+      <tr>
+          <td>
+              <label for="alamat linkedin">Alamat Linkedin</label>
+          </td>
+          <td>
+              <input type="alamat linkedin"name="alamat linkedin"id="alamat Linkedin">
+          </td>
+      </tr>
+      
+      <tr>
+          <td>
+              <label for="pekerjaan">pekerjaan</label>
+              </td>
+              <td>
+                  <input type="pekerjaan"name="pekerjaan"id="pekerjaan">
+              </td>
+      </tr>
+      
+      <tr>
+      <td>
+             <label for="alamat kantor">Alamat Kantor</label>
+             </td>
+             <td>
+                 <input type="alamat Kantor"name="alamat kantor"id="alamat kantor">
+             </td>
+             </tr>
+             
+             <tr>
+                 <td>
+    <label for="pengurus alumni">Pengurus Alumni</label>
+    </td>
+    <td>
+        <input type="pengurus alumni"id="pengurus alumni">
+    <br>
+    <input type="ya" name="ya">
+    <br>
+    <input type="tidak" name="tidak">
+    <br>
+       <button type="submit" class="btn-blue">Simpan</button>
+                    <button type="reset" class="btn-red">Reset</button>
+                </td>
+            </tr>
+            </body>
+            </html>
+  
